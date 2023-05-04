@@ -90,7 +90,7 @@ const HeroSection: React.FC = () => {
         aria-hidden="true"
         className="bg-text absolute -top-36 rotate-12 text-gray-100 dark:text-[#1f2e3a] text-9xl scale-150 tracking-wide font-bold select-none pointer-events-none text-center z-0"
       >
-        PASSIONATE PROGRAMMER FREELANCER FULL-STACK DEVELOPER
+        PASSIONATE PROGRAMMER FREELANCER FRONTEND DEVELOPER
       </span>
 
       <div className="z-10 px-0 mx-auto mt-0 select-none image-animation xs:mt-6 sm:mt-14 lg:mt-0 lg:p-0 lg:basis-1/3">
@@ -129,18 +129,17 @@ const HeroSection: React.FC = () => {
         </div>
         <div className="overflow-hidden">
           <span className="block text-2xl font-medium text-animation md:text-3xl lg:text-5xl md:my-3 text-marrsgreen dark:text-carrigreen">
-            A Full-stack Developer
+            A Frontend Developer
           </span>
         </div>
         <div className="my-4 mt-2 md:mb-8">
-          <p>I&apos;m a full-stack developer based in Abuja, Nigeria.</p>
+          <p>I&apos;m a frontend developer based in Abuja, Nigeria.</p>
           <p>
             I am passionate about writing codes and developing web applications
             to solve <span className="whitespace-nowrap">real-life</span>{" "}
             challenges.
           </p>
-          I usually craft front-end with React, NextJS. Mobile with React-Native
-          and I build back-end especially using NodeJS & Express.
+          I usually craft front-end with Tailwindcss, NextJS & Mobile with React-Native   
         </div>
         <LinkButton href="https://wa.me/message/2FCXILQF2S64E1">
           Contact me!

@@ -8,7 +8,7 @@ import { useSection } from "context/section";
 import useOnScreen from "hooks/useOnScreen";
 import useScrollActive from "hooks/useScrollActive";
 
-import aibra from "public/projects/aibra.png";
+import moviedb from "public/projects/moviedb.png";
 import iflip1 from "public/projects/iflip1.png";
 import haruApi from "public/projects/haru-api.webp";
 import weather from "public/projects/weather.png";
@@ -65,20 +65,20 @@ const ProjectSection: React.FC = () => {
 
 const projects = [
   {
-    title: "Aibra.io",
+    title: "MoviesDb",
     type: "Full-Stack",
     image: (
       <Image
-        src={aibra}
+        src={moviedb}
         sizes="100vw"
         fill
-        alt="Aibra.io "
+        alt="MoviesDb "
         className="object-cover transition-transform duration-500 hover:scale-110"
       />
     ),
-    desc: "Aibra.io is Blockchain and A.I Enabled websites which helps Job Seekers to Find Jobs in over 15+ Country the World and also Purchase the aibra token. ",
-    tags: ["React", "JavaScript", "Python"],
-    liveUrl: "https://aibra.io/",
+    desc: "Moviesdb Clone ",
+    tags: ["NextJs", "JavaScript", "Rapid API"],
+    liveUrl: "https://moviesdb1-skad12.vercel.app/",
     codeUrl: "",
     bgColor: "bg-[#B4BEE0]",
   },

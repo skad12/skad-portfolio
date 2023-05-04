@@ -49,7 +49,11 @@ const ContactSection: React.FC = () => {
           Thus, if you have some opportunities/challenges or just want to build
           awesome things together, don&apos;t hesitate to contact me!
         </p>
-        <LinkButton href="https://wa.me/message/2FCXILQF2S64E1">
+        <LinkButton
+          href="https://wa.link/rlqy89"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Get in touch!
         </LinkButton>
       </div>

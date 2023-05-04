@@ -13,11 +13,6 @@ import ContactSection from "@/sections/ContactSection";
 import Footer from "@/components/Footer";
 
 import { getAllPosts } from "utils/api";
-import { MdxMeta } from "../pages/blog/posts/[slug]";
-
-type Props = {
-  blogPosts: MdxMeta[];
-};
 
 export const meta = {
   description:
@@ -29,7 +24,7 @@ export const meta = {
   imageAlt: "SKAD portfolio website",
 };
 
-const Home: NextPage<Props> = ({ blogPosts }) => {
+const Home: NextPage = ({}) => {
   return (
     <>
       <AppHead
