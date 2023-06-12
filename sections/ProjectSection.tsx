@@ -10,8 +10,9 @@ import useScrollActive from "hooks/useScrollActive";
 
 import moviedb from "public/projects/moviedb.png";
 import iflip1 from "public/projects/iflip1.png";
-import haruApi from "public/projects/haru-api.webp";
+import duru from "public/projects/duru.png";
 import weather from "public/projects/weather.png";
+import service_form from "public/projects/service_form.png";
 
 const ProjectSection: React.FC = () => {
   const { theme } = useTheme();
@@ -101,21 +102,21 @@ const projects = [
     bgColor: "bg-[#A6CECE]",
   },
   {
-    title: "Haru API",
-    type: "Backend",
+    title: "Duru Dove Apartments",
+    type: "Frontend",
     image: (
       <Image
-        src={haruApi}
+        src={duru}
         sizes="100vw"
         fill
-        alt="Haru API"
+        alt="duru"
         className="object-cover transition-transform duration-500 hover:scale-110"
       />
     ),
-    desc: "A RESTful API developed for Haru fashion ecommerce project. Include CRUD operations, authentication, authorization, forgot/reset password and full-text search.",
-    tags: ["ExpressJS", "TypeScript", "PostgreSQL", "Prisma"],
-    liveUrl: "https://satnaing.github.io/haru-api/",
-    codeUrl: "https://github.com/satnaing/haru-api",
+    desc: "Durudove Apartments is a luxury serviced apartment located in kubwa Abuja Nigeria. ",
+    tags: ["HTML5", "JavaScript", "Tailwindcss", "SwiperJS"],
+    liveUrl: "https://durudove.vercel.app/",
+    codeUrl: "https://github.com/skad12/durudove",
     bgColor: "bg-[#C5E4E7]",
   },
   {
@@ -135,6 +136,25 @@ const projects = [
     liveUrl: "https://weatherstat.vercel.app/",
     codeUrl: "https://github.com/skad12/weather2",
     bgColor: "bg-[#9FD0E3]",
+  },
+
+  {
+    title: "Information form",
+    type: "Frontend",
+    image: (
+      <Image
+        src={service_form}
+        sizes="100vw"
+        fill
+        alt="info image"
+        className="object-cover transition-transform duration-500 hover:scale-110"
+      />
+    ),
+    desc: "An Information stepper for User Registration Process. ",
+    tags: ["NextJS", "TailwindCSS"],
+    liveUrl: "https://service-form-iota.vercel.app/",
+    codeUrl: "https://github.com/skad12/service-form",
+    bgColor: "bg-[#A6CECE]",
   },
 ];
 
