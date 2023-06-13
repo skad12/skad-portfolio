@@ -113,7 +113,7 @@ const projects = [
         className="object-cover transition-transform duration-500 hover:scale-110"
       />
     ),
-    desc: "Durudove Apartments is a luxury serviced apartment located in kubwa Abuja Nigeria. ",
+    desc: "Durudove Apartments is a luxury serviced apartment located in kubwa, Abuja, Nigeria. ",
     tags: ["HTML5", "JavaScript", "Tailwindcss", "SwiperJS"],
     liveUrl: "https://durudove.vercel.app/",
     codeUrl: "https://github.com/skad12/durudove",

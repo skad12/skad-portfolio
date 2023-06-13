@@ -169,15 +169,21 @@ const AboutSection: React.FC = () => {
             </div>
 
             <p className="col-start-1 col-end-3 row-start-4 row-end-6 lg:row-start-1 lg:row-end-2 lg:col-start-3 lg:col-end-6 lg:ml-8 lg:mt-auto about-intro">
-              I have almost 5 years of working experience in web application
-              development.
+              I am a seasoned full stack developer with 5 years of experience in
+              HTML5, CSS3, JavaScript, Tailwind CSS, Next.js, Python, and
+              Django. I excel in creating visually stunning and responsive web
+              layouts, enhancing user experiences with dynamic functionalities.
+              My expertise extends to both front-end and back-end development,
+              ensuring robust and scalable web applications.
             </p>
 
             <div
               className="col-start-3 col-end-6 row-start-1 row-end-6 lg:row-start-2 lg:row-end-7 md:ml-8 place-content-end"
               ref={eduRef}
             >
-              <p className="my-4 edu-bg">Here is my education background.</p>
+              <p className="my-4 edu-bg capitalize">
+                Here is my education background.
+              </p>
               {educationInfo.map((edu) => (
                 <EduGroup edu={edu} key={edu.id} />
               ))}

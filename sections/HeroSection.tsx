@@ -129,17 +129,16 @@ const HeroSection: React.FC = () => {
         </div>
         <div className="overflow-hidden">
           <span className="block text-2xl font-medium text-animation md:text-3xl lg:text-5xl md:my-3 text-marrsgreen dark:text-carrigreen">
-            A Frontend Developer
+            A Full-stack Developer
           </span>
         </div>
         <div className="my-4 mt-2 md:mb-8">
-          <p>I&apos;m a frontend developer based in Abuja, Nigeria.</p>
+          <p>I&apos;m a Full-stack Developer based in Abuja, Nigeria.</p>
           <p>
             I am passionate about writing codes and developing web applications
             to solve <span className="whitespace-nowrap">real-life</span>{" "}
             challenges.
           </p>
-          I usually craft front-end with Tailwindcss, NextJS & Mobile with React-Native   
         </div>
         <LinkButton href="https://wa.me/message/2FCXILQF2S64E1">
           Contact me!
